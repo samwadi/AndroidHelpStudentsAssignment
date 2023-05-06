@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.samwadi.classapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="147dp"
+        android:text="Quiz App"
+        android:textColor="#F44336"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="146dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-221dp"
+        android:layout_marginBottom="110dp"
+        android:background="#29FF22"
+        android:text="@string/startButton"
+        android:textColor="#CCC0C0"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
